@@ -1,0 +1,61 @@
+.heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.heading h1 {
+	margin-top: 0;
+}
+
+.score-text {
+	font-size: 30px;
+	font-family: serif;
+	margin: 0;
+	margin-bottom: 16px;
+}
+
+.table-board {
+	border-spacing: 0;
+	width: 480px;
+	margin: 0 auto;
+}
+
+.game-over-text {
+	font-size: 30px;
+	font-family: serif;
+}
+
+.score-board {
+	text-align: center;
+}
+
+.score-text-game-over {
+	font-size: 30px;
+	font-family: serif;
+}
+
+.game-over-content {
+	text-align: center;
+}
+
+.game-over-content button {
+	font-size: 20px;
+	border-radius: 6px;
+	border: 0;
+	outline: 0;
+	padding: 8px 12px;
+	background-color: #fff;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.16);
+	cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+	.table-board {
+		display: inline-block;
+	}
+
+	.score-board {
+		float: right;
+		text-align: left;
+	}
+}

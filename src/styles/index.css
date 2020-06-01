@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  min-width: calc(480px + 30%);
+  padding: 24px 15%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  user-select: none;
+}
